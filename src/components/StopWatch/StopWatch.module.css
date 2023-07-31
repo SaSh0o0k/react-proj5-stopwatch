@@ -1,0 +1,109 @@
+body {
+  background-color: #0E1526;
+  text-align: center;
+  margin-top: 50px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 3px;
+  color-scheme: dark;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 50px;
+  background-color: #686868;
+  border-radius: 3px;
+}
+
+.h1style {
+  color: #B4C6EF;
+  font-size: 6rem;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+}
+
+.btnStart {
+  background-color: #38BDF8;
+  height: 40px;
+  width: 400px;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  border: 0px solid #000;
+  border-radius: 8px;
+}
+
+.btnPauseOrResume {
+  height: 40px;
+  width: 195px;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  border: 0px solid #000;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+.btnColorResume {
+  background-color: #2DD4BF;
+}
+
+.btnColorStop {
+  background-color: #F4BF50;
+} 
+
+.btnLapOrReset {
+  height: 40px;
+  width: 195px;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  border: 0px solid #000;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+.btnColorReset {
+  background-color: #FB7085;
+}
+
+.btnColorLap {
+  background-color: #818CF8;
+}
+
+.tableLapsList {
+  color: #B4C6EF;
+  margin: 40px auto 25px;
+}
+
+/* thead {
+  border-bottom-width: 1px;
+  border-bottom-color:#2F394E;
+} */
+
+tbody {
+  color: #93A2C7;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 8px;
+}
+
+td {
+  font-size: 14px;
+}
+
+.clearLaps {
+  background-color: inherit;
+  color: #FB7085;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: 1px solid #FB7085;
+  font-size: 16px;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px 30px;
+}
